@@ -5,7 +5,7 @@
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{{ route('user.index') }}">User</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ $user->user_name }}</li>
+            <li class="breadcrumb-item active" aria-current="page">{{ $user->full_name }}</li>
         </ol>
     </nav>
     <hr />

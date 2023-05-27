@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="lc-block mb-2">
-                <a class="btn btn-primary" href="{{ route('master.index') }}" role="button">Start App</a>
+                <a class="btn btn-primary" href="{{ route('user.index') }}" role="button">Start App</a>
             </div>
         </div>
     </div>
